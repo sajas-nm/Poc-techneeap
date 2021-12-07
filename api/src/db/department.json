@@ -1,0 +1,84 @@
+[
+  {
+    "name": "Marketing",
+    "employees": [
+      {
+        "name": "Emp 001",
+        "profilePicUrl": "https://res.cloudinary.com/dd5goguui/image/upload/v1638894378/DEV/m4bwbahmm11mcyq19kfm.jpg",
+        "dob": "2017-05-24"
+      },
+
+      {
+        "name": "Emp 002",
+        "profilePicUrl": "https://res.cloudinary.com/dd5goguui/image/upload/v1638894378/DEV/m4bwbahmm11mcyq19kfm.jpg",
+        "dob": "2017-05-24"
+      },
+      {
+        "name": "Emp 003",
+        "profilePicUrl": "https://res.cloudinary.com/dd5goguui/image/upload/v1638894378/DEV/m4bwbahmm11mcyq19kfm.jpg",
+        "dob": "2017-05-24"
+      },
+      {
+        "name": "Emp 004",
+        "profilePicUrl": "https://res.cloudinary.com/dd5goguui/image/upload/v1638894378/DEV/m4bwbahmm11mcyq19kfm.jpg",
+        "dob": "2017-05-24"
+      },
+      {
+        "name": "Emp 005",
+        "profilePicUrl": "https://res.cloudinary.com/dd5goguui/image/upload/v1638894378/DEV/m4bwbahmm11mcyq19kfm.jpg",
+        "dob": "2017-05-24"
+      },
+      {
+        "name": "Emp 006",
+        "profilePicUrl": "https://res.cloudinary.com/dd5goguui/image/upload/v1638894378/DEV/m4bwbahmm11mcyq19kfm.jpg",
+        "dob": "2017-05-24"
+      }
+    ]
+  },
+  {
+    "name": "Production",
+    "employees": [
+      {
+        "name": "Emp 1001",
+        "profilePicUrl": "https://res.cloudinary.com/dd5goguui/image/upload/v1638894378/DEV/m4bwbahmm11mcyq19kfm.jpg",
+        "dob": "2017-05-24"
+      },
+
+      {
+        "name": "Emp 2002",
+        "profilePicUrl": "https://res.cloudinary.com/dd5goguui/image/upload/v1638894378/DEV/m4bwbahmm11mcyq19kfm.jpg",
+        "dob": "2017-05-24"
+      },
+      {
+        "name": "Emp 3003",
+        "profilePicUrl": "https://res.cloudinary.com/dd5goguui/image/upload/v1638894378/DEV/m4bwbahmm11mcyq19kfm.jpg",
+        "dob": "2017-05-24"
+      },
+      {
+        "name": "Emp 4004",
+        "profilePicUrl": "https://res.cloudinary.com/dd5goguui/image/upload/v1638894378/DEV/m4bwbahmm11mcyq19kfm.jpg",
+        "dob": "2017-05-24"
+      },
+      {
+        "name": "Emp 5005",
+        "profilePicUrl": "https://res.cloudinary.com/dd5goguui/image/upload/v1638894378/DEV/m4bwbahmm11mcyq19kfm.jpg",
+        "dob": "2017-05-24"
+      },
+      {
+        "name": "Emp 6006",
+        "profilePicUrl": "https://res.cloudinary.com/dd5goguui/image/upload/v1638894378/DEV/m4bwbahmm11mcyq19kfm.jpg",
+        "dob": "2017-05-24"
+      }
+    ]
+  },
+  {
+    "name": "Finance",
+    "employees": [
+      {
+        "name": "Emp 1201",
+        "profilePicUrl": "https://res.cloudinary.com/dd5goguui/image/upload/v1638894378/DEV/m4bwbahmm11mcyq19kfm.jpg",
+        "dob": "2017-05-24"
+      }
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "name": "crud-poc",
+  "version": "1.0.0",
+  "description": "This is a simple REST API developed using node and express with typescript",
+  "scripts": {
+    "start": "npm run transpile && node server.js",
+    "dev": "concurrently \"npm:watch\" \"npm:serve\"",
+    "serve": "nodemon server.js",
+    "watch": "tsc -w",
+    "transpile": "tsc",
+    "seed": "npm run transpile && node src/db/seed.js",
+    "lint": "tslint -c tslint.json -p tsconfig.json"
+  },
+  "engines": {
+    "node": ">=8.0"
+  },
+  "keywords": [
+    "Node",
+    "Typescript",
+    "postgresql",
+    "javascript"
+  ],
+  "author": "Sajas Ahamed",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.11",
+    "@types/helmet": "4.0.0",
+    "@types/joi": "^17.2.2",
+    "@types/node": "^15.0.1",
+    "@types/sequelize": "^4.28.9",
+    "@types/winston": "^2.4.4",
+    "concurrently": "^6.0.2",
+    "nodemon": "^2.0.7",
+    "tslint": "^6.1.2",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "cloudinary": "^1.27.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.5.0",
+    "husky": "^6.0.0",
+    "joi": "^17.4.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "multer-storage-cloudinary": "^4.0.0",
+    "pg": "^8.6.0",
+    "sequelize": "^6.6.2",
+    "winston": "^3.3.3"
+  },
+  "hooks": {
+    "pre-commit": "npm run lint"
+  }
+}

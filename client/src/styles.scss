@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background: #cecece30;
+    height: 100%;
+    padding-top: 80px;
+  }
+  
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .list-container {
+    height: 70vh;
+    overflow-y: auto;
+  }
+  .todo-list {
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .todo-flex {
+    display: flex;
+    align-items: center;
+  }
+  .todo-title-warper {
+    width: 100%;
+    cursor: pointer;
+  }
+  .todo-title-warper:hover {
+    color: rgb(0, 140, 255);
+  }
+  
